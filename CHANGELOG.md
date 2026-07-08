@@ -1,3 +1,9 @@
+## 0.4.4
+
+* Raises the iOS minimum to 13.0 — Flutter's FlutterFramework Swift package
+  requires platform 13.0, and a lower plugin minimum fails Xcode's target
+  integrity check when built via SPM.
+
 ## 0.4.3
 
 * Adds Swift Package Manager support on iOS: sources moved to
