@@ -1,3 +1,15 @@
+## 0.4.3
+
+* Adds Swift Package Manager support on iOS: sources moved to
+  `ios/image_crop/Sources/image_crop/` with a `Package.swift`, following
+  Flutter's plugin SPM migration guide. CocoaPods remains supported via the
+  updated podspec (iOS deployment target raised from 8.0 to 12.0).
+
+## 0.4.2
+
+* Upgrades Android build to newer SDK and Gradle versions, removes legacy
+  plugin registration code (previously only on the `v0.4.2` branch).
+
 ## 0.4.1
 
 Community Contributions. Thank you!
